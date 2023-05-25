@@ -16,7 +16,8 @@
       "Director": null,
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 6.1,
-      "IMDB Votes": 1071
+      "IMDB Votes": 1071,
+      "src":"@/assets/"
     },
     { "id":2,
       "Title": "First Love, Last Rites",
@@ -35,7 +36,8 @@
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 6.9,
       "IMDB Votes": 207
-    },
+,
+"src":"@/assets/"   },
     { "id":3,
       "Title": "I Married a Strange Person",
       "US Gross": 203134,
@@ -53,7 +55,8 @@
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 6.8,
       "IMDB Votes": 865
-    },
+,
+"src":"@/assets/"    },
     { "id":4,
       "Title": "Let's Talk About Sex",
       "US Gross": 373615,
@@ -70,7 +73,8 @@
       "Director": null,
       "Rotten Tomatoes Rating": 13,
       "IMDB Rating": null,
-      "IMDB Votes": null
+      "IMDB Votes": null,
+      "src":"@/assets/"
     },
     { "id":5,
       "Title": "Slam",
@@ -88,7 +92,8 @@
       "Director": null,
       "Rotten Tomatoes Rating": 62,
       "IMDB Rating": 3.4,
-      "IMDB Votes": 165
+      "IMDB Votes": 165,
+        "src":"@/assets/"
     },
     { "id":6,
       "Title": "Mississippi Mermaid",
@@ -106,7 +111,8 @@
       "Director": null,
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": null,
-      "IMDB Votes": null
+      "IMDB Votes": null,
+      "src":"@/assets/"
     },
     { "id":7,
       "Title": "Following",
@@ -124,7 +130,8 @@
       "Director": "Christopher Nolan",
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 7.7,
-      "IMDB Votes": 15133
+      "IMDB Votes": 1513,
+      "src":"@/assets/"
     },
     { "id":8,
       "Title": "Foolish",
@@ -143,7 +150,8 @@
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 3.8,
       "IMDB Votes": 353
-    },
+,
+"src":"@/assets/"    },
     { "id":9,
       "Title": "Pirates",
       "US Gross": 1641825,
@@ -160,7 +168,8 @@
       "Director": "Roman Polanski",
       "Rotten Tomatoes Rating": 25,
       "IMDB Rating": 5.8,
-      "IMDB Votes": 3275
+      "IMDB Votes": 3275,
+      "src":"@/assets/"
     },
     { "id":10,
       "Title": "Duel in the Sun",
@@ -178,7 +187,8 @@
       "Director": null,
       "Rotten Tomatoes Rating": 86,
       "IMDB Rating": 7,
-      "IMDB Votes": 2906
+      "IMDB Votes": 2906,
+      "src":"@/assets/"
     },
     { "id":11,
       "Title": "Tom Jones",
@@ -196,7 +206,8 @@
       "Director": null,
       "Rotten Tomatoes Rating": 81,
       "IMDB Rating": 7,
-      "IMDB Votes": 4035
+      "IMDB Votes": 4035,
+      "src":"@/assets/"
     },
     { "id":12,
       "Title": "Oliver!",
@@ -214,7 +225,8 @@
       "Director": null,
       "Rotten Tomatoes Rating": 84,
       "IMDB Rating": 7.5,
-      "IMDB Votes": 9111
+      "IMDB Votes": 9111,
+      "src":"@/assets/"
     }
   ]
 }

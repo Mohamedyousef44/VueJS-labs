@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid px-0">
     <NavbarComponent v-if="!$route.meta.hideNavbar" />
     <router-view></router-view>
     <FooterComponent v-if="!$route.meta.hideNavbar" />

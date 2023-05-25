@@ -1,18 +1,19 @@
 <template>
-    <div class="container-fluid movies-con mt-5 py-3 px-0">
-        <button class="btn btn-light my-4">Create New Movie</button>
+    <div class="container-fluid movies-con mt-5 py-3">
+        <router-link class="text-decoration-none" to="/movie/create"> <button class="btn btn-light my-4 ms-2">Create New Movie</button></router-link>
         <div class="row">
-            <div class="col-12 col-md-3 d-flex flex-column justify-content-between align-items-center p-3 border-1" v-for="movie of movies" :key="movie.id">
+            <div class="col-12 col-md-3 d-flex flex-column justify-content-between align-items-center movie-card" v-for="movie of movies" :key="movie.id">
+                <router-link class="text-decoration-none" to="`/movies/${movie.id}`">
                 <img class="cus-img" src='@/assets/cover.jpg' alt="card">
-                <div class="h-25 text-light">
+                <div class="text-light">
                     <p>{{ movie.Title }}</p>
                     <p>{{ movie['Release Date'] }}</p>
                     <p>{{ movie.Rating }}</p>
                 </div>
-                <div class="h-25">
-                    <button @click="deleteMovie(movie.id)">delete</button>
-                    <button>show</button>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-light" @click="deleteMovie(movie.id)"><i class="fs-4 bi bi-trash3"></i></button>
                 </div>
+                </router-link>
             </div>
         </div>
     </div>
@@ -53,11 +54,9 @@ export default {
 
 .movies-con{
     background-color: rgb(24, 24, 24);
-    padding-left: 0 !important;
-    padding-right: 0 !important;
 }
 .cus-img{
-    width:100%;
+    width:90%;
     aspect-ratio: 21/22;
     object-fit: cover;
     cursor: pointer;
@@ -65,6 +64,9 @@ export default {
 }
 .cus-img:hover{
     transform: scale(1.02);
+}
+.movie-card{
+    /* border: solid 2px white */
 }
     
 </style>

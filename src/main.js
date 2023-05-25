@@ -7,6 +7,8 @@ import AboutComponent from './components/props/lab2/AboutComponent.vue'
 import ProfileComponent from './components/props/lab2/ProfileComponent.vue'
 import NotFoundComponent from './components/props/lab2/NotFoundComponent.vue'
 import MoviesComponent from './components/props/lab2/MoviesComponent.vue'
+import MovieFormComponent from './components/props/lab2/MovieFormComponent.vue'
+import MovieDetailsComponent from './components/props/lab2/MovieDetailsComponent.vue'
 import App from './App.vue'
 
 const routes = [
@@ -21,6 +23,12 @@ const routes = [
     },
     { 
         path: '/movies', component: MoviesComponent
+    },
+    { 
+        path: '/movies/create', component: MovieFormComponent
+    },
+    { 
+        path: '/movies/:id', component: MovieDetailsComponent
     },
     {
         path:'/:NotFound(.*)*', component:NotFoundComponent, meta:{hideNavbar:true}
