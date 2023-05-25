@@ -25,7 +25,7 @@ const routes = [
         path: '/movies', component: MoviesComponent
     },
     { 
-        path: '/movies/create', component: MovieFormComponent
+        path: '/movie/create', component: MovieFormComponent
     },
     { 
         path: '/movies/:id', component: MovieDetailsComponent

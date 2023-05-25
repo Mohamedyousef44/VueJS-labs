@@ -1,6 +1,7 @@
 {
   "movies": [
-    { "id":1,
+    {
+      "id": 1,
       "Title": "The Land Girls",
       "US Gross": 146083,
       "Worldwide Gross": 146083,
@@ -17,9 +18,10 @@
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 6.1,
       "IMDB Votes": 1071,
-      "src":"@/assets/"
+      "src": "@/assets/"
     },
-    { "id":2,
+    {
+      "id": 2,
       "Title": "First Love, Last Rites",
       "US Gross": 10876,
       "Worldwide Gross": 10876,
@@ -35,10 +37,11 @@
       "Director": null,
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 6.9,
-      "IMDB Votes": 207
-,
-"src":"@/assets/"   },
-    { "id":3,
+      "IMDB Votes": 207,
+      "src": "@/assets/"
+    },
+    {
+      "id": 3,
       "Title": "I Married a Strange Person",
       "US Gross": 203134,
       "Worldwide Gross": 203134,
@@ -54,10 +57,11 @@
       "Director": null,
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 6.8,
-      "IMDB Votes": 865
-,
-"src":"@/assets/"    },
-    { "id":4,
+      "IMDB Votes": 865,
+      "src": "@/assets/"
+    },
+    {
+      "id": 4,
       "Title": "Let's Talk About Sex",
       "US Gross": 373615,
       "Worldwide Gross": 373615,
@@ -74,9 +78,10 @@
       "Rotten Tomatoes Rating": 13,
       "IMDB Rating": null,
       "IMDB Votes": null,
-      "src":"@/assets/"
+      "src": "@/assets/"
     },
-    { "id":5,
+    {
+      "id": 5,
       "Title": "Slam",
       "US Gross": 1009819,
       "Worldwide Gross": 1087521,
@@ -93,9 +98,10 @@
       "Rotten Tomatoes Rating": 62,
       "IMDB Rating": 3.4,
       "IMDB Votes": 165,
-        "src":"@/assets/"
+      "src": "@/assets/"
     },
-    { "id":6,
+    {
+      "id": 6,
       "Title": "Mississippi Mermaid",
       "US Gross": 24551,
       "Worldwide Gross": 2624551,
@@ -112,9 +118,10 @@
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": null,
       "IMDB Votes": null,
-      "src":"@/assets/"
+      "src": "@/assets/"
     },
-    { "id":7,
+    {
+      "id": 7,
       "Title": "Following",
       "US Gross": 44705,
       "Worldwide Gross": 44705,
@@ -131,9 +138,10 @@
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 7.7,
       "IMDB Votes": 1513,
-      "src":"@/assets/"
+      "src": "@/assets/"
     },
-    { "id":8,
+    {
+      "id": 8,
       "Title": "Foolish",
       "US Gross": 6026908,
       "Worldwide Gross": 6026908,
@@ -149,10 +157,11 @@
       "Director": null,
       "Rotten Tomatoes Rating": null,
       "IMDB Rating": 3.8,
-      "IMDB Votes": 353
-,
-"src":"@/assets/"    },
-    { "id":9,
+      "IMDB Votes": 353,
+      "src": "@/assets/"
+    },
+    {
+      "id": 9,
       "Title": "Pirates",
       "US Gross": 1641825,
       "Worldwide Gross": 6341825,
@@ -169,9 +178,10 @@
       "Rotten Tomatoes Rating": 25,
       "IMDB Rating": 5.8,
       "IMDB Votes": 3275,
-      "src":"@/assets/"
+      "src": "@/assets/"
     },
-    { "id":10,
+    {
+      "id": 10,
       "Title": "Duel in the Sun",
       "US Gross": 20400000,
       "Worldwide Gross": 20400000,
@@ -188,9 +198,10 @@
       "Rotten Tomatoes Rating": 86,
       "IMDB Rating": 7,
       "IMDB Votes": 2906,
-      "src":"@/assets/"
+      "src": "@/assets/"
     },
-    { "id":11,
+    {
+      "id": 11,
       "Title": "Tom Jones",
       "US Gross": 37600000,
       "Worldwide Gross": 37600000,
@@ -207,9 +218,10 @@
       "Rotten Tomatoes Rating": 81,
       "IMDB Rating": 7,
       "IMDB Votes": 4035,
-      "src":"@/assets/"
+      "src": "@/assets/"
     },
-    { "id":12,
+    {
+      "id": 12,
       "Title": "Oliver!",
       "US Gross": 37402877,
       "Worldwide Gross": 37402877,
@@ -226,7 +238,7 @@
       "Rotten Tomatoes Rating": 84,
       "IMDB Rating": 7.5,
       "IMDB Votes": 9111,
-      "src":"@/assets/"
+      "src": "@/assets/"
     }
   ]
 }
