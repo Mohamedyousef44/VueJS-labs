@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
-    <NavbarComponent />
+    <NavbarComponent v-if="!$route.meta.hideNavbar" />
     <router-view></router-view>
-    <FooterComponent />
+    <FooterComponent v-if="!$route.meta.hideNavbar" />
   </div>
 </template>
 

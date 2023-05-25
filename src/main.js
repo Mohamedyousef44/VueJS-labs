@@ -5,6 +5,7 @@ import { createWebHistory,createRouter } from 'vue-router';
 import HomeComponent from './components/props/lab2/HomeComponent.vue'
 import AboutComponent from './components/props/lab2/AboutComponent.vue'
 import ProfileComponent from './components/props/lab2/ProfileComponent.vue'
+import NotFoundComponent from './components/props/lab2/NotFoundComponent.vue'
 import App from './App.vue'
 
 const routes = [
@@ -17,9 +18,9 @@ const routes = [
     { 
         path: '/profile', component: ProfileComponent
     },
-    // {
-    //     path:'/:NotFound(.*)*',component:errorApp,meta:{hideNavbar:true}
-    // }
+    {
+        path:'/:NotFound(.*)*', component:NotFoundComponent, meta:{hideNavbar:true}
+    }
   ]
 const router = createRouter({
     history:createWebHistory(),
