@@ -4,13 +4,13 @@
         <div class="row">
             <div class="col-12 col-md-3 d-flex flex-column justify-content-between align-items-center movie-card" v-for="movie of movies" :key="movie.id">
                 <router-link class="text-decoration-none" :to = "movieUrl(movie.id)">
-                <img class="cus-img" src='@/assets/cover.jpg' alt="card">
+                <img class="cus-img"  src="@/assets/imgs/10.jpg" alt="card">
                 <div class="text-light">
                     <p>{{ movie.Title }}</p>
                     <p>{{ movie['Release Date'] }}</p>
                     <p>{{ movie.Rating }}</p>
                 </div>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center my-2">
                     <button class="btn btn-light" @click="deleteMovie(movie.id)"><i class="fs-4 bi bi-trash3"></i></button>
                 </div>
                 </router-link>
@@ -30,6 +30,7 @@ export default {
         getAllMovies(){
             axios.get('http://localhost:3000/movies')
             .then(result=>{
+                console.log(result.data)
                 this.movies = result.data
             }).catch(err=>{
                 console.log(err)
@@ -47,6 +48,9 @@ export default {
         },
         movieUrl(id){
             return `/movies/${id}`
+        },
+        getPosterUrl(movie){
+            return movie.src
         }
     },
     created(){
