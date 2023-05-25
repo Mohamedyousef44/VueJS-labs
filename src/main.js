@@ -6,6 +6,7 @@ import HomeComponent from './components/props/lab2/HomeComponent.vue'
 import AboutComponent from './components/props/lab2/AboutComponent.vue'
 import ProfileComponent from './components/props/lab2/ProfileComponent.vue'
 import NotFoundComponent from './components/props/lab2/NotFoundComponent.vue'
+import MoviesComponent from './components/props/lab2/MoviesComponent.vue'
 import App from './App.vue'
 
 const routes = [
@@ -17,6 +18,9 @@ const routes = [
     },
     { 
         path: '/profile', component: ProfileComponent
+    },
+    { 
+        path: '/movies', component: MoviesComponent
     },
     {
         path:'/:NotFound(.*)*', component:NotFoundComponent, meta:{hideNavbar:true}
