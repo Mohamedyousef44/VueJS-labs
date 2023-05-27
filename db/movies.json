@@ -5,84 +5,84 @@
       "Title": "Planet Of Apes",
       "Release Date": "Jun 12 2016",
       "Rating": 8.1,
-      "src": "./assets/imgs/1.jpg"
+      "image": "planet.jpg"
     },
     {
       "id": 2,
       "Title": "The Awakened",
       "Release Date": "Aug 07 2018",
       "Rating": 6.4,
-      "src": "./assets/imgs/2.jpg"
+      "image": "awakened.jpg"
     },
     {
       "id": 3,
       "Title": "AATMA",
       "Release Date": "Aug 28 2019",
       "Rating": 6.8,
-      "src": "./assets/imgs/3.jpg"
+      "image": "3.jpg"
     },
     {
       "id": 4,
       "Title": "Scream",
       "Release Date": "Sep 11 2002",
       "Rating": 6.9,
-      "src": "./assets/imgs/4.jpg"
+      "image": "4.jpg"
     },
     {
       "id": 5,
       "Title": "Run",
       "Release Date": "Nov 09 2021",
       "Rating": 6.4,
-      "src": "./assets/imgs/5.jpg"
+      "image": "5.jpg"
     },
     {
       "id": 6,
       "Title": "Wrath Man",
       "Release Date": "May 15 2021",
       "Rating": 9,
-      "src": "./assets/imgs/6.jpg"
+      "image": "6.jpg"
     },
     {
       "id": 7,
       "Title": "China Guy",
       "Release Date": "Apr 04 2021",
       "Rating": 7.7,
-      "src": "./assets/imgs/7.jpg"
+      "image": "7.jpg"
     },
     {
       "id": 8,
       "Title": "Oblivion",
       "Release Date": "Apr 09 2020",
       "Rating": 8.8,
-      "src": "./assets/imgs/8.jpg"
+      "image": "8.jpg"
     },
     {
       "id": 9,
       "Title": "Mother",
       "Release Date": "Jul 01 2013",
       "Rating": 9.5,
-      "src": "./assets/imgs/9.jpg"
+      "image": "9.jpg"
     },
     {
       "id": 10,
       "Title": "End Game",
       "Release Date": "Dec 31 2020",
       "Rating": 9.5,
-      "src": "./assets/imgs/10.jpg"
+      "image": "10.jpg"
     },
     {
       "id": 11,
       "Title": "Iron Man",
       "Release Date": "Oct 07 2007",
       "Rating": 7,
-      "src": "./assets/imgs/11.jpg"
+      "image": "11.jpg"
     },
     {
       "id": 12,
       "Title": "Thor",
       "Release Date": "Dec 11 2011",
       "Rating": 7.5,
-      "src": "./assets/imgs/12.jpg"
+      "image": "12.jpg"
     }
   ]
 }

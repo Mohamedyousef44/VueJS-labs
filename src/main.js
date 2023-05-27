@@ -38,4 +38,11 @@ const router = createRouter({
     history:createWebHistory(),
     routes
 })
-createApp(App).use(router).mount('#app')
+const app = createApp(App)
+app.use(router).mount('#app')
+
+app.directive("dark",{
+    mounted(el , binding){
+        el.classList.add(binding.value)
+    }
+})
