@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-md-6 mx-auto">
           <h2 class="mb-4">{{ movie.Title }}</h2>
-          <img src={{movie.src}} alt="poster">
+          <img class="cus-image" :src="movieImage(movie.image)" alt="poster">
           <div class="card">
             <div class="card-body">
               <p><strong>Release Date:</strong> {{ movie["Release Date"] }}</p>
@@ -41,6 +41,9 @@
             console.log(error);
           });
       },
+      movieImage(src){
+            return require(`@/assets/${src}`)     
+        }
     },
     created() {
       this.getMovieById();
@@ -49,4 +52,9 @@
   </script>
   
   <style>
+  .cus-image{
+    width: 100%;
+    aspect-ratio: 21/31;
+    object-fit: cover;
+  }
   </style>

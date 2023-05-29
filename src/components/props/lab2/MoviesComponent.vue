@@ -1,11 +1,10 @@
 <template>
     <div class="container-fluid movies-con mt-5 py-3">
-        <button @click="addDirective">click</button>
         <router-link class="text-decoration-none" to="/movie/create"> <button class="btn btn-light my-4 ms-2">Create New Movie</button></router-link>
         <div class="row">
             <div class="col-12 col-md-3 d-flex flex-column justify-content-between align-items-center movie-card" v-for="movie of movies" :key="movie.id">
                 <router-link class="text-decoration-none" :to = "movieUrl(movie.id)">
-                <img class="cus-img" v-src="movieImage(movie.image)"  alt="card">
+                <img class="cus-img" :src="movieImage(movie.image)"  alt="card">
                 <div class="text-light">
                     <p>{{ movie.Title }}</p>
                     <p>{{ movie['Release Date'] }}</p>
@@ -34,15 +33,6 @@ export default {
             el.setAttribute('v-dark' , 'dark-mode')
             console.log(el)
         },
-        // getAllMovies(){
-        //     axios.get('http://localhost:3000/movies')
-        //     .then(result=>{
-        //         console.log(result.data)
-        //         this.movies = result.data
-        //     }).catch(err=>{
-        //         console.log(err)
-        //     })
-        // },
         deleteMovie(id){
             axios.delete('http://localhost:3000/movies/'+id)
             .then(()=>{
@@ -57,14 +47,9 @@ export default {
             return `/movies/${id}`
         },
         movieImage(src){
-            return `@/assets/${src}`
-
+            return require(`@/assets/${src}`)     
         }
     },
-    // created(){
-    //     this.getAllMovies()
-    //     this.fetchData()
-    // }
 }
 </script>
 <script setup>
@@ -92,9 +77,6 @@ onMounted(async ()=>{
 }
 .cus-img:hover{
     transform: scale(1.02);
-}
-.movie-card{
-    /* border: solid 2px white */
 }
 
 .dark-mode{
